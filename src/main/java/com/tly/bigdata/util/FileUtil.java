@@ -1,5 +1,6 @@
 package com.tly.bigdata.util;
 
+import com.tly.bigdata.component.PropertiesWrapper;
 import com.tly.bigdata.exception.CommonRuntimeException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

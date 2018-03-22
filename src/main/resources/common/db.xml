@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bonecp-config>
+	<named-config name="stat">
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
+		<property name="jdbcUrl">jdbc:mysql://10.10.1.35:3357/test?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false</property>
+		<property name="username">root</property>
+		<property name="password">kungeek2016</property>
+		<property name="poolName">statdb</property>
+		<property name="maxConnectionsPerPartition">10</property>
+		<property name="minConnectionsPerPartition">3</property>
+		<property name="partitionCount">3</property>
+		<property name="statementsCacheSize">100</property>
+	</named-config>
+</bonecp-config>   
